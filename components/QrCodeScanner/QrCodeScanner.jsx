@@ -22,6 +22,7 @@ const QrCodeScanner = () => {
 		<div className={s.qrCodeScannerContainer}>
 			<p>Point your camera at the QR code</p>
 			<QrReader
+				constraints={{ facingMode: 'environment' }}
 				scanDelay={1000}
 				onResult={handleScan}
 				containerStyle={{ width: '350px' }}
