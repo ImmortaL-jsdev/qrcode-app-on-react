@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background-color: #f1ffff;
+	color: #1c1f1c;
+}
+
+.qrCodeScannerContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 10px;
+}
+.qrCodeScannerContainer a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #000000;
+}
+.qrCodeScannerContainer p {
+	font-size: 17px;
+	color: #000000;
+}
