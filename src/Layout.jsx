@@ -10,10 +10,19 @@ const Layout = () => {
 		<div className=''>
 			<NavBar />
 			<Routes>
-				<Route path='/generate' element={<QrCodeGenerator />} />
-				<Route path='/scan' element={<QrCodeScanner />} />
-				<Route path='/generateHistory' element={<GenerationHistory />} />
-				<Route path='/scanHistory' element={<ScanHistory />} />
+				<Route
+					path='/qrcode-app-on-react/generate'
+					element={<QrCodeGenerator />}
+				/>
+				<Route path='/qrcode-app-on-react/scan' element={<QrCodeScanner />} />
+				<Route
+					path='/qrcode-app-on-react/generateHistory'
+					element={<GenerationHistory />}
+				/>
+				<Route
+					path='/qrcode-app-on-react/scanHistory'
+					element={<ScanHistory />}
+				/>
 			</Routes>
 		</div>
 	)

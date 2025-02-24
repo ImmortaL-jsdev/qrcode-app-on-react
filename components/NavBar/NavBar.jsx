@@ -5,10 +5,10 @@ import { QrCodeGenerator } from '../QrCodeGenerator/QrCodeGenerator'
 const NavBar = () => {
 	return (
 		<div className={s.navBarContainer}>
-			<Link to='/generate'>Generate QR</Link>
-			<Link to='/scan'>Scan QR</Link>
-			<Link to='/generateHistory'>Generation history</Link>
-			<Link to='/scanHistory'>Scan history</Link>
+			<Link to='/qrcode-app-on-react/generate'>Generate QR</Link>
+			<Link to='/qrcode-app-on-react/scan'>Scan QR</Link>
+			<Link to='/qrcode-app-on-react/generateHistory'>Generation history</Link>
+			<Link to='/qrcode-app-on-react/scanHistory'>Scan history</Link>
 		</div>
 	)
 }
