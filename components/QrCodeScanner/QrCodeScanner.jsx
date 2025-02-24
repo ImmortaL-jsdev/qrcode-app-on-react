@@ -4,8 +4,6 @@ import { Scanner } from '@yudiel/react-qr-scanner'
 import { SCAN_DATA } from '../../src/constants'
 
 const QrCodeScanner = () => {
-	console.log(SCAN_DATA)
-
 	const [textInScanner, setTextInScanner] = useState('')
 
 	const handleScan = result => {
